@@ -1,0 +1,10 @@
+{
+    "1600 Amphitheatre Parkway, Mountain View, CA": {
+        "lat": 37.4224764,
+        "lng": -122.0842499
+    },
+    "Some Known Address, New York": {
+        "lat": 40.712776,
+        "lng": -74.005974
+    }
+}
