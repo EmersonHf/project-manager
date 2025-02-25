@@ -33,7 +33,7 @@ class ProjectController extends Controller
         ]);
 
         $address = $request->input('address');
-        $response = Http::get('http://localhost:3001/geocode', [
+        $response = Http::get('http://localhost:300/geocode', [
             'address' => $address
         ]);
 

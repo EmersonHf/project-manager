@@ -26,6 +26,7 @@ class AuthController extends Controller
             'role'     => $validated['role'],
         ]);
         $token = $user->createToken('API Token')->plainTextToken;
+        dd($token);
         return response()->json([
             'user'  => $user,
             'token' => $token,
